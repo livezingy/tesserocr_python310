@@ -7,18 +7,21 @@ tesserocr is designed to be Pillow-friendly but can also be used with image file
 # what is tesserocr_python310
 One of the way to install tesserocr on Windows, is to Download the wheel file corresponding to your Windows platform and Python installation from [tesserocr-windows_build](https://github.com/simonflueckiger/tesserocr-windows_build/releases). 
 
-If you need Windows tessocr package and your Python version is not supported by above mentioned project, you can try to follow step by step instructions for Windows 64bit in [Windows.build.md.](https://github.com/sirfz/tesserocr/blob/master/Windows.build.md).
+If you need Windows tessocr package and your Python version is not supported by above mentioned project, you can try to follow step by step instructions for Windows 64bit in [Windows.build.md.](https://github.com/sirfz/tesserocr/blob/master/Windows.build.md)
 
-tesserocr_python310 is compiled with python3.10 + tesseract5.0.1 + windows10 x64.
+tesserocr_python310 is compiled with python3.10 + tesseract5.0.1 + windows10 x64 refer to [Windows.build.md.](https://github.com/sirfz/tesserocr/blob/master/Windows.build.md)
 
 # how to use tesserocr_python310
 1. Download the tesserocr_python310.
+
 2. Download .traineddata files which can be found at https://github.com/tesseract-ocr/tessdata and Setting the path of the .traineddata files as the value of TESSDATA_PREFIX environment variable. 
+ 
 3. install the tesserocr via
 ```
 pip install tesserocr-2.5.2-cp310-cp310-win_amd64.whl
 ```
-3.Copy leptonica-1.83.0.dll/libpng16.dll/tesseract50.dll/zlib.dll to where the tesserocr.cp310-win_amd64.pyd(The path is PATH\TO\python\Lib\site-packages on My Pc) is.
+
+4.Copy leptonica-1.83.0.dll/libpng16.dll/tesseract50.dll/zlib.dll to where the tesserocr.cp310-win_amd64.pyd is.(The path is PATH\TO\python\Lib\site-packages on My Pc)
 
 ## Check
 ```
