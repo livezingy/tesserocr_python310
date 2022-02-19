@@ -5,7 +5,7 @@
 tesserocr is designed to be Pillow-friendly but can also be used with image files instead.
 
 # what is tesserocr_python310
-Download the wheel file corresponding to your Windows platform and Python installation from [tesserocr-windows_build](https://github.com/simonflueckiger/tesserocr-windows_build/releases), is one of the way to get tesserocr on Windows. 
+One of the way to install tesserocr on Windows, is to Download the wheel file corresponding to your Windows platform and Python installation from [tesserocr-windows_build](https://github.com/simonflueckiger/tesserocr-windows_build/releases). 
 
 If you need Windows tessocr package and your Python version is not supported by above mentioned project, you can try to follow step by step instructions for Windows 64bit in [Windows.build.md.](https://github.com/sirfz/tesserocr/blob/master/Windows.build.md).
 
