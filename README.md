@@ -16,12 +16,12 @@ tesserocr_python310 is compiled with python3.10 + tesseract5.0.1 + windows10 x64
 
 2. Download .traineddata files which can be found at https://github.com/tesseract-ocr/tessdata and Setting the path of the .traineddata files as the value of TESSDATA_PREFIX environment variable. 
  
-3. install the tesserocr via
+3. Come to the path of the tesserocr-2.5.2-cp310-cp310-win_amd64.whl on the command line and install the tesserocr via
 ```
 pip install tesserocr-2.5.2-cp310-cp310-win_amd64.whl
 ```
 
-4.Copy leptonica-1.83.0.dll/libpng16.dll/tesseract50.dll/zlib.dll to where the tesserocr.cp310-win_amd64.pyd is.(The path is PATH\TO\python\Lib\site-packages on My Pc)
+4. Copy leptonica-1.83.0.dll/libpng16.dll/tesseract50.dll/zlib.dll to where the tesserocr.cp310-win_amd64.pyd is.(The path is PATH\TO\python\Lib\site-packages on My Pc)
 
 ## Check
 ```
