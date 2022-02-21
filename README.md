@@ -21,7 +21,7 @@ tesserocr_python310 is compiled with python3.10 + tesseract5.0.1 + windows10 x64
 pip install tesserocr-2.5.2-cp310-cp310-win_amd64.whl
 ```
 
-4. Copy leptonica-1.83.0.dll/libpng16.dll/tesseract50.dll/zlib.dll to where the tesserocr.cp310-win_amd64.pyd is.(The path is PATH\TO\python\Lib\site-packages on My Pc)
+4. Copy leptonica-1.83.0.dll/libpng16.dll/tesseract50.dll/zlib.dll to where the tesserocr.cp310-win_amd64.pyd is after the step3. My path of tesserocr.cp310-win_amd64.pyd is PATH\TO\python\Lib\site-packages on My Pc.
 
 ## Check
 ```
