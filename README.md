@@ -44,5 +44,3 @@ tesseract 5.0.1
 git clone https://github.com/sirfz/tesserocr.git
 cd tesserocr
 ```
-# more details to refer
-[如何在python中使用tesserocr调用tesseract C++ API](https://livezingy.com/how-to-call-tesseract-c-api-in-python-with-tesserocr/)
